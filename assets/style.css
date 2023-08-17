@@ -43,7 +43,7 @@ body {
 
 .social-link img {
 	width: 20px;
-	height: 100%;
+	height: 20px;
 }
 
 #about {
@@ -75,6 +75,10 @@ body {
 
 .picture img {
 	width: 557px;
+	height: auto;
+}
+
+.w-100 {
 	height: auto;
 }
 
