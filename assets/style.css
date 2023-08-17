@@ -74,7 +74,7 @@ body {
 }
 
 .picture img {
-	width: 100%;
+	width: 557px;
 	height: auto;
 }
 
@@ -276,6 +276,8 @@ input[type="submit"] {
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
+		width: 50%;
+		height: auto;
 	}
 
 	#about,
@@ -291,6 +293,7 @@ input[type="submit"] {
 	#about-me h6,
 	#about-me p {
 		width: 100%;
+		height: auto;
 	}
 }
 
@@ -302,6 +305,7 @@ input[type="submit"] {
 
 	.picture {
 		width: 50%;
+		height: auto;
 	}
 
 	.picture.left::before {
@@ -382,6 +386,7 @@ input[type="submit"] {
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
+		height: auto;
 	}
 
 	#services .container {
@@ -404,5 +409,6 @@ input[type="submit"] {
 
 	.picture {
 		width: 80%;
+		height: auto;
 	}
 }
