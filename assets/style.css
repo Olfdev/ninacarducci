@@ -93,10 +93,12 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	height: auto;
 }
 
 #about-me p {
 	width: 80%;
+	height: auto;
 	font-size: 14px;
 }
 
@@ -162,6 +164,7 @@ body {
 	font-family: 'Spectral';
 	font-style: italic;
 	width: 70%;
+	height: auto;
 	margin: auto;
 	padding-block: 3em;
 }
@@ -247,11 +250,13 @@ form {
 	display: flex;
 	flex-direction: column;
 	width: 70%;
+	height: auto;
 	align-items: flex-start;
 }
 
 form input {
 	width: 100%;
+	height: auto;
 	background-color: transparent;
 	border: solid 1px;
 	height: 2.5em;
@@ -260,6 +265,7 @@ form input {
 
 form textarea {
 	width: 100%;
+	height: auto;
 	background-color: transparent;
 	border: solid 1px;
 	height: 5em;
@@ -374,6 +380,7 @@ input[type="submit"] {
 	.top-header .nav,
 	.top-header .nav ul {
 		width: 100%;
+		height: auto;
 		padding: 0 0 0 0;
 	}
 
@@ -395,6 +402,7 @@ input[type="submit"] {
 
 	.service {
 		max-width: 90%;
+		height: auto;
 	}
 
 	#about,
@@ -405,6 +413,7 @@ input[type="submit"] {
 
 	form {
 		width: 100%;
+		height: auto;
 	}
 
 	.picture {
