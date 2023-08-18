@@ -300,7 +300,12 @@ input[type="submit"] {
 		margin-bottom: 1em;
 	}
 
-	#about-me h5,
+	#about-me h5 {
+		font-size: 1rem;
+		width: 100%;
+		height: auto;
+	}
+
 	#about-me p {
 		width: 100%;
 		height: auto;
