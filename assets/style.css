@@ -402,7 +402,6 @@ input[type="submit"] {
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
-		height: auto;
 	}
 
 	#services .container {
