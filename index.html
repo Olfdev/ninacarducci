@@ -140,7 +140,13 @@
 		</section>
 		<section id="about">
 			<div class="picture left">
-				<img width="557" height="555" src="./assets/images/nina.webp" alt="Photo de moi">
+				<picture>
+					<img sizes="(max-width: 557px) 100vw, 557px" srcset="
+					./assets/images/nina_idilhz_c_scale,w_200.webp 200w,
+					./assets/images/nina_idilhz_c_scale,w_448.webp 448w,
+					./assets/images/nina_idilhz_c_scale,w_557.webp 557w" src="./assets/images/nina_idilhz_c_scale,w_557.webp"
+						alt="Photo de moi">
+				</picture>
 			</div>
 			<div id="about-me">
 				<h4 class="about-me__title">A propos de moi</h4>
